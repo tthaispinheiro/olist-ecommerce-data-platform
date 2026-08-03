@@ -180,10 +180,13 @@ python -m pytest -v
 
 ## Execução
 
+### Pipeline completo
+
 ![Execução do pipeline](docs/images/pipeline-execution.png)
 
-![Tabelas no SQL Server](docs/images/sql-server-tables.png)
+### Dados carregados no SQL Server
 
+![Tabelas no SQL Server](docs/images/sql-server-tables.png)
 ## Limitações
 
 - O pipeline utiliza carga completa.

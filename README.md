@@ -199,7 +199,6 @@ python -m pytest -v
 - Migrar o pipeline para Databricks
 - Utilizar Delta Lake
 - Implementar carga incremental
-- Criar dashboard no Power BI
 
 ## Autor
 

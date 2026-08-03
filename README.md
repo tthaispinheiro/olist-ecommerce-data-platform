@@ -203,7 +203,7 @@ python -m pytest -v
 
 ## Autor
 
-**SEU NOME**
+Thaís Pinheiro
 
 - LinkedIn: https://www.linkedin.com/in/thais-piinheiro/
 - GitHub: https://github.com/tthaispinheiro

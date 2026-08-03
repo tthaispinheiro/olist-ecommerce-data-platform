@@ -205,5 +205,5 @@ python -m pytest -v
 
 **SEU NOME**
 
-- LinkedIn: COLE_AQUI_SEU_LINK
-- GitHub: COLE_AQUI_SEU_LINK
+- LinkedIn: https://www.linkedin.com/in/thais-piinheiro/
+- GitHub: https://github.com/tthaispinheiro

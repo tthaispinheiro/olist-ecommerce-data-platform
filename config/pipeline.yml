@@ -1,0 +1,33 @@
+app:
+  name: OlistEcommerceDataPlatform
+  mode: full_refresh
+
+spark:
+  master: "local[*]"
+  shuffle_partitions: 8
+  jdbc_jar: drivers/mssql-jdbc.jar
+
+paths:
+  raw: data/raw
+  bronze: data/lake/bronze
+  silver: data/lake/silver
+  gold: data/lake/gold
+
+sources:
+  customers: olist_customers_dataset.csv
+  orders: olist_orders_dataset.csv
+  order_items: olist_order_items_dataset.csv
+  payments: olist_order_payments_dataset.csv
+  products: olist_products_dataset.csv
+  sellers: olist_sellers_dataset.csv
+  category_translation: product_category_name_translation.csv
+
+sql_tables:
+  dim_customer: dw.dim_customer
+  dim_product: dw.dim_product
+  dim_seller: dw.dim_seller
+  dim_date: dw.dim_date
+  fact_orders: dw.fact_orders
+  fact_order_items: dw.fact_order_items
+  daily_sales: mart.daily_sales
+  seller_performance: mart.seller_performance

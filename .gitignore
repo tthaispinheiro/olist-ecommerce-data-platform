@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Data
+data/raw/*
+data/lake/*
+
+# Database drivers
+drivers/*.jar
+
+# Hadoop binaries
+tools/hadoop/
+
+# Spark temporary files
+tmp/
+
+# Logs
+logs/*.log
+
+# Operating system
+.DS_Store
+Thumbs.db

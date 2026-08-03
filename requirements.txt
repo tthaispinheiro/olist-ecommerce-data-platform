@@ -1,0 +1,11 @@
+pyspark
+python-dotenv
+PyYAML
+pytest
+pytest-cov
+ruff
+black
+kaggle
+pandas>=2.2,<3.0
+pyarrow
+ipykernel
